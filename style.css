@@ -1,0 +1,55 @@
+.section-nav{
+    z-index: 100;
+}
+.section-2{
+    margin-top:50px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{ 
+    width:300px;
+    height: 200px;
+    border-radius:15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow:1px 1px 4px;
+}
+.card-image{
+    padding:10px;
+}
+.card-image>img{
+    border-radius:15px; 
+}
+.card>p{
+      padding-inline: 20px !important; 
+      text-align: justify;
+}
+.section-4-card-image{
+    border-radius:15px;
+}
+@media  screen and (max-width:768px) {
+    .card{ 
+        width:100%;
+        margin-top:20px;
+    }
+    .card-bootstrap{
+        width: 100% !important;
+        margin-top:20px;
+    }
+}
+@media screen and (max-width:520px){
+    .sub-footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .sub-footer>p{
+        margin-right:50px;
+    }
+
+}
